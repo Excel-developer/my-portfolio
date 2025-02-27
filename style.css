@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #101010;
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #181818;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.buy-now {
+    color: red;
+    font-weight: 600;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 50px;
+    min-height: 80vh;
+}
+
+.content {
+    max-width: 600px;
+    text-align: left;
+}
+
+h3 {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.highlight {
+    color: red;
+}
+
+p {
+    font-size: 16px;
+    color: #c0c0c0;
+    line-height: 1.5;
+}
+
+.image img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #181818;
+}
