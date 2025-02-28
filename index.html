@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
@@ -14,20 +15,20 @@
         <div class="logo">INBIO</div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Resume</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#resume">Resume</a></li>
                 <li><a href="#">Clients</a></li>
-                <li><a href="#">Pricing</a></li>
+                <li><a href="#pricing">Pricing</a></li>
                 <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li><a href="#" class="buy-now">Buy Now</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero">
+    <section class="hero" class="#home">
         <div class="content">
             <h3>WELCOME TO MY WORLD</h3>
             <h1>Hi, I'm <span class="highlight">Excel Okorie</span><br>a Professional Coder.</h1>
@@ -36,10 +37,250 @@
         <div class="image">
             <img src="/Image/WhatsApp Image 2025-01-20 at 01.38.55_fb9431e2.jpg" alt="Excel Okorie">
         </div>
+        
+    
     </section>
 
-    <footer>
-        <p>Find with me | Best Skill On</p>
-    </footer>
+    <section class="social-skills">
+        <div class="social">
+            <h3>Find With Me</h3>
+            <div class="icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="skills">
+            <h3>Best Skill On</h3>
+            <div class="icons">
+                <a href="#"><i class="fa-brands fa-invision"></i></a>
+                <a href="#"><i class="fa-brands fa-sketch"></i></a>
+                <a href="#"><i class="fa-brands fa-figma"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h2 class="section-title">FEATURES</h2>
+        <h1 class="section-heading">What I Do</h1>
+
+        <div class="feature-container">
+            <div class="feature-box">
+                <i class="fas fa-bars"></i>
+                <h3>Software Architecture</h3>
+                <p>I design scalable and efficient software architectures, ensuring high performance and maintainability.</p>
+            </div>
+            
+            <div class="feature-box">
+                <i class="fas fa-book-open"></i>
+                <h3>Full-Stack Development</h3>
+                <p>From backend APIs to responsive front-end designs, I develop end-to-end solutions tailored to business needs.</p>
+            </div>
+
+            <div class="feature-box">
+                <i class="fas fa-tv"></i>
+                <h3>App Development</h3>
+                <p>I build powerful web and mobile applications that enhance user experience and drive engagement.</p>
+            </div>
+
+            <div class="feature-box">
+                <i class="fab fa-twitch"></i>
+                <h3>Cloud & DevOps</h3>
+                <p>I streamline deployment workflows using cloud services, CI/CD pipelines, and containerization technologies.</p>
+            </div>
+
+            <div class="feature-box">
+                <i class="fas fa-wifi"></i>
+                <h3>Technical Consulting</h3>
+                <p>I provide expert guidance on software development best practices, performance optimization, and security.</p>
+            </div>
+
+            <div class="feature-box">
+                <i class="fas fa-project-diagram"></i>
+                <h3>Open Source Contributions</h3>
+                <p>I actively contribute to open-source projects, collaborating with global developers to improve software ecosystems.</p>
+            </div>
+        </div>
+    </section>
+             
+    <section class="portfolio" id="portfolio">
+        <h2>My Portfolio</h2>
+        <p>Explore my latest projects in software development, web applications, and mobile app design.</p>
+
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="https://inbio-html-orcin.vercel.app/zebra/inbio/assets/images/portfolio/portfolio-05.jpg" alt="Project 1">
+                <h3>Full-Stack Web Application</h3>
+                <p>Designed and built a modern, scalable web application using React, Node.js, and MongoDB.</p>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="https://inbio-html-orcin.vercel.app/zebra/inbio/assets/images/portfolio/portfolio-04.jpg" alt="Project 2">
+                <h3>AI-Powered Chatbot</h3>
+                <p>Developed an AI chatbot using Python and OpenAI API for seamless customer interactions.</p>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="https://inbio-html-orcin.vercel.app/zebra/inbio/assets/images/portfolio/portfolio-06.jpg" alt="Project 3">
+                <h3>Mobile Banking App</h3>
+                <p>Created a secure and user-friendly banking application using Flutter and Firebase.</p>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="https://media.istockphoto.com/id/1321462048/photo/digital-transformation-concept-system-engineering-binary-code-programming.jpg?s=612x612&w=0&k=20&c=Ib8RLw3_eCOo9N3YE4pvp9rcb_WmirjS-9x9R-vTd68=" alt="Project 4">
+                <h3>Blockchain-Based Authentication</h3>
+                <p>Built a decentralized authentication system using Ethereum and smart contracts.</p>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="https://i.pinimg.com/736x/63/a8/9a/63a89a518438c18f44c97746fae06da9.jpg" alt="Project 5">
+                <h3>Cybersecurity Dashboard</h3>
+                <p>Developed a real-time cybersecurity dashboard with Python and Flask.</p>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="https://goodish.agency/wp-content/uploads/2022/06/hero.jpg" alt="Project 6">
+                <h3>IoT Smart Home System</h3>
+                <p>Engineered an IoT-based home automation system using Raspberry Pi and MQTT.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="resume-page" id="resume">
+        <h1 class="resume-title">My Resume</h1>
+        
+        <!-- Tab Navigation -->
+        <div class="resume-tabs">
+            <button class="resume-tab active" onclick="openTab('education', this)">Education</button>
+            <button class="resume-tab" onclick="openTab('skills', this)">Professional Skills</button>
+        </div>
+
+        <!-- Education Section -->
+        <div id="education" class="resume-content active">
+            <h2 class="resume-section-title">Education</h2>
+            <div class="resume-card">
+                <h3>Diploma in Computer Science</h3>
+                <p>Works at Plugin Development (2016 - 2020)</p>
+            </div>
+            <div class="resume-card">
+                <h3>BSE in CSE</h3>
+                <p>University of XYZ (2012 - 2016)</p>
+            </div>
+        </div>
+
+        <!-- Professional Skills Section -->
+        <div id="skills" class="resume-content">
+            <h2 class="resume-section-title">Professional Skills</h2>
+            <div class="resume-skill">
+                <p>HTML</p>
+                <div class="resume-progress-bar">
+                    <div class="resume-progress" style="width: 85%;">85%</div>
+                </div>
+            </div>
+            <div class="resume-skill">
+                <p>CSS</p>
+                <div class="resume-progress-bar">
+                    <div class="resume-progress" style="width: 80%;">80%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="pricing-container" id="pricing">
+        <h1 class="pricing-title">My Pricing</h1>
+
+        <div class="pricing-tabs">
+            <button class="pricing-tab active" data-plan="static">Static</button>
+            <button class="pricing-tab" data-plan="standard">Standard</button>
+            <button class="pricing-tab" data-plan="premium">Premium</button>
+        </div>
+
+        <div class="pricing-content">
+
+            <!-- Static Plan -->
+            <div class="pricing-card" id="static-plan">
+                <h2 class="pricing-heading">Static Plan</h2>
+                <p class="pricing-price">$30.00</p>
+                <ul class="pricing-features">
+                    <li>1 Page with Basic Design</li>
+                    <li>Mobile Responsive</li>
+                    <li>Basic SEO Optimization</li>
+                    <li>Delivery: 2 Days</li>
+                </ul>
+                <button class="order-button">Order Now</button>
+            </div>
+
+            <!-- Standard Plan -->
+            <div class="pricing-card hidden" id="standard-plan">
+                <h2 class="pricing-heading">Standard Plan</h2>
+                <p class="pricing-price">$50.00</p>
+                <ul class="pricing-features">
+                    <li>Multipage Website</li>
+                    <li>Custom Design with Figma</li>
+                    <li>Advanced SEO Optimization</li>
+                    <li>Delivery: 4 Days</li>
+                </ul>
+                <button class="order-button">Order Now</button>
+            </div>
+
+            <!-- Premium Plan -->
+            <div class="pricing-card hidden" id="premium-plan">
+                <h2 class="pricing-heading">Premium Plan</h2>
+                <p class="pricing-price">$100.00</p>
+                <ul class="pricing-features">
+                    <li>Fully Custom Website</li>
+                    <li>Premium Animations & Effects</li>
+                    <li>Complete SEO Package</li>
+                    <li>Delivery: 7 Days</li>
+                </ul>
+                <button class="order-button">Order Now</button>
+            </div>
+
+        </div>
+    </section>
+
+    <body>
+        <header class="contact-header" id="contact">
+            
+        </header>
+    
+        <main class="contact-section">
+            <h1 class="contact-title">Contact Me</h1>
+    
+            <div class="contact-container">
+                <div class="contact-info">
+                    <img src="https://cdn-icons-png.flaticon.com/512/10017/10017692.png" alt="Handshake" class="contact-image">
+                    <h2>Excel Okorie</h2>
+                    <p>Chief Operating Officer</p>
+                    <p>I am available for freelance work. Connect with me via phone or email.</p>
+                    <p><strong>Phone:</strong> +01234567890</p>
+                    <p><strong>Email:</strong> admin@example.com</p>
+    
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+    
+                <form class="contact-form">
+                    <div class="input-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="text" name="phone" placeholder="Phone Number" required>
+                    </div>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="contact-btn">Send Message →</button>
+                </form>
+            </div>
+        </main>
+
+
+
+
+    
 </body>
 </html>
